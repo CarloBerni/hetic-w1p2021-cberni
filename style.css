@@ -1,12 +1,60 @@
-html{
-    padding: 0;
-    margin:0;
+.page1{
+  width:100%;
+  height:1000px;
+  background: url("photo/montagnenepal.jpg");
+  background-size: cover;
+  background-position-y: bottom;
+  display: table;
 }
-body {
-  color: black;
-  background-image : url(photo/lac\ 4k.jpg)
+
+.title{
+  color: bisque;
+  text-align-last: center;
+  font-size: 125px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul{
+  display: flex;
+  margin: auto;
+  justify-content: center;
   
-
-
-
 }
+
+li{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  margin-left: 40px;
+  margin-right: 30px;
+  margin-top: 35px;
+  transition: 0.7s;
+  text-align: center;
+  list-style-type: none;
+  }
+
+li a{
+    color: bisque;
+    text-decoration: none;
+  }
+
+li a:hover{
+  color: white;
+  text-decoration: underline;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: 0.7s;
+}
+.page2{
+  width: 100%;
+  height: 1000px;
+  background: url("photo/montagnenepal.jpg");
+  background-size: cover;
+  background-position-y: bottom;
+  transform: scaleY(-1);
+  display: table;
+}
+
+
+
+
