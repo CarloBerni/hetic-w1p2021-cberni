@@ -5,8 +5,9 @@
   <meta name="description" content="SnowMania">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+
   <title>Mountains</title>
-  
 </head>
 
 <body>
@@ -15,15 +16,29 @@
   <div class="title">
     <h1>Mountains</h1>
   </div>
-<p>
-  <ul>
-    <li><a class="france" href="france.html" target="_blank">France</a></li>
-    <li><a class="suisse" href="suisse.html" target="_blank">Switzerland</a></li>
-    <li><a class="canada" href="canada.html" target="_blank">Canada</a></li>
-    <li><a class="japon" href="japon.html" target="_blank">Japan</a></li>
-  </ul>
-</p>
-
+  <div id="navbar">
+    <ul>
+      <li><a href="france.html" target="_blank">France</a></li>
+      <li><a href="suisse.html" target="_blank">Switzerland</a></li>
+      <li><a href="canada.html" target="_blank">Canada</a></li>
+      <li><a href="japon.html" target="_blank">Japan</a></li>
+    </ul>
+  </div>
+  
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
 
 </section>
 
@@ -32,7 +47,6 @@
 
 </section>
 
-<script src="index.js"></script>
 </body>
 </html>
 
