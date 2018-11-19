@@ -55,9 +55,22 @@ li{
   padding-top: 60px;
 }
 
-.misenpage {
+.sectiontest introduction {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 150px;
+ }
+ .sectiontest {
+   display: flex;
+   align-items: center;
+   position: fixed;
+ }
+ .introduction {
   background-color: bisque;
-}
+  height: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
 
 
 
@@ -69,7 +82,6 @@ li{
   background-size: cover;
   background-position-y: bottom;
   transform: scaleY(-1);
-  display: table;
 }
 
 
