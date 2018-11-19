@@ -1,7 +1,7 @@
 .page1{
   width:100%;
   height:1000px;
-  background: url("photo/montagnenepal.jpg");
+  background: url("photo/moutainshistory/montagnenepal.jpg");
   background-size: cover;
   background-position-y: bottom;
 }
@@ -78,7 +78,7 @@ li{
 .page2{
   width: 100%;
   height: 1000px;
-  background: url("photo/montagnenepal.jpg");
+  background: url("photo/moutainshistory/montagnenepal.jpg");
   background-size: cover;
   background-position-y: bottom;
   transform: scaleY(-1);

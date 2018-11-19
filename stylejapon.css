@@ -1,0 +1,7 @@
+.page1 {
+    width:100%;
+    height:1000px;
+    background: url("photo/japan/manuel-cosentino-691602-unsplash.jpg");
+    background-size: cover;
+    background-position-y: bottom;
+  }
