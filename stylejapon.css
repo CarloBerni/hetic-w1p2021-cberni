@@ -4,9 +4,12 @@
     background: url("photo/japan/backgroundfuji.jpg");
     background-size: cover;
     background-position-y: bottom;
+    position: fixed;
   }
   .title {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 60px;
     text-align: center;
-  }
+    margin-top: 12%;
+    color: bisque;
+    }
